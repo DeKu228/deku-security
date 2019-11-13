@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>deku-security-demo</artifactId>
+	<packaging>jar</packaging>
+
+	<name>deku-security-demo</name>
+	<url>https://github.com/DeKu228</url>
+	<inceptionYear>2019-Now</inceptionYear>
+	<parent>
+		<groupId>com.deku.security</groupId>
+		<artifactId>deku-security</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.deku.security</groupId>
+			<artifactId>deku-security-browser</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+	</dependencies>
+</project>
