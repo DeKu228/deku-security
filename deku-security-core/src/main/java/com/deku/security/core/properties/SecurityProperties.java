@@ -16,4 +16,6 @@ public class SecurityProperties {
     private BrowserProperties browser = new BrowserProperties();
     /** 验证码配置 **/
     private ValidateCodeProperties code = new ValidateCodeProperties();
+    /** 社交登录配置 **/
+    private SocialProperties social = new SocialProperties();
 }
